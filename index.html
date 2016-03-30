@@ -1,1 +1,63 @@
-sda
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Todos</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+
+  <div id="todoapp">
+    <header>
+      <h1>任务清单</h1>
+      <input id="new-todo" type="text" placeholder="今天你需要做些什么?">
+    </header>
+
+    <section id="main">
+      <input id="toggle-all" type="checkbox">
+      <label for="toggle-all">完成所有任务</label>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <footer>
+      <a id="clear-completed">清理掉所有完成的任务.</a>
+      <div id="todo-count"></div>
+    </footer>
+
+  </div>
+
+  <div id="instructions">
+    可以归纳每天你所完成的任务列表.
+  </div>
+
+  <div id="credits">
+    作者: KonishiLee
+  </div>
+
+  <script src="./jquery.js"></script>
+  <script src="./underscore.js"></script>
+  <script src="./backbone.js"></script>
+  <script src="./backbone.localStorage.js"></script>
+  <script src="./index.js"></script>
+
+  <script type="text/template" id="item-template">
+    <div class="view">
+      <input class="toggle" type="checkbox" <%= done ? 'checked="checked"' : '' %> />
+      <label><%- title %></label>
+      <a class="destroy"></a>
+    </div>
+    <input class="edit" type="text" value="<%- title %>" />
+  </script>
+
+  <script type="text/template" id="stats-template">
+    <% if (done) { %>
+      <a id="clear-completed">清理 <%= done %> 已完成 <%= done == 1 ? '任务' : '任务' %></a>
+    <% } %>
+    <div class="todo-count"><b>还有 <%= remaining %></b> <%= remaining == 1 ? '任务' : '任务' %>需要做.</div>
+  </script>
+
+  </body>
+</html>
