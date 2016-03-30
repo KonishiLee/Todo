@@ -7,10 +7,8 @@
 
 
 ### 下面就让我们来试试
-  _做一个有时间规划的思想者_
+  _怎样做一个有时间规划的思想者？_ 点击[Todos](http://konishilee.com/todo.html),规划自己的时间吧！
 
-点击[Todos]("http://konishilee.com/todo.html")，创建自己的任务清单
+![KonishiLee Todos](http://konishilee.com/todo/todo.png "KonishiLee Todos")
 
-
-
-##### Author: [Konishi Lee]("https://github.com/KonishiLee")
+##### Author: [Konishi Lee](https://github.com/KonishiLee)
