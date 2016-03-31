@@ -1,0 +1,19 @@
+{
+  "name": "konishilee-todo",
+  "version": "1.0.1",
+  "description": "localstorage",
+  "main": "backbone.localStorage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonishiLee/Todo.git"
+  },
+  "author": "KonishiLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonishiLee/Todo/issues"
+  },
+  "homepage": "https://github.com/KonishiLee/Todo#readme"
+}

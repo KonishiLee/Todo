@@ -13,6 +13,8 @@
       });
    } else {
       // RequireJS isn't being used. Assume underscore and backbone are loaded in script tags
+      var _ = require('underscore');
+      var Backbone = require('backbone');
       factory(_, Backbone);
    }
 }(this, function(_, Backbone) {
