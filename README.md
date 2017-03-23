@@ -9,6 +9,6 @@
 ### 下面就让我们来试试
   _怎样做一个有时间规划的思想者？_ 点击[Todos](http://konishilee.com/todo.html),规划自己的时间吧！
 
-![KonishiLee Todos](http://konishilee.com/todo/todo.png "KonishiLee Todos")
+![KonishiLee Todos](http://konishilee.com/todo/todo.png)
 
 ##### Author: [Konishi Lee](https://github.com/KonishiLee)
